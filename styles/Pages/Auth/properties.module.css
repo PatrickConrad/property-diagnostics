@@ -1,0 +1,318 @@
+.propertiesPageBody {
+    height: fit-content;
+    width: 100vw;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.propertiesTitleBox {
+    margin-bottom: 10px;
+}
+
+.propertiesTitle {
+    color: var(--primaryColor);
+    font-size: 40px;
+}
+
+.propertiesTitleUnderline {
+    background-color: var(--secondaryColor);
+    height: 2px;
+    width: 10vw;
+    margin-bottom: 50px;
+}
+
+.propertiesListBox {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.propertiesListItem {
+    width: 90vw;
+    background-color: #22456342;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    min-width: 300px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+.linkToProperty {
+    text-decoration: none;
+}
+
+.linkContainer:hover {
+    border: .2px solid var(--secondaryColor);
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.propertyAddressBox {
+    display: flex;
+    margin-top: 20px;
+}
+
+.propertyAddress {
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-size: 25px;
+    text-indent: 10vw;
+}
+
+.propertyLocationBox {
+    height: 15px;
+    margin-top: 5px;
+
+}
+
+.locationInfo {
+    font-size: 15px;
+    color: var(--primaryColor);
+    text-indent: 10vw;
+}
+
+.propertyGroupBox {
+    margin-top: 5px;
+}
+
+.propertyGroup {
+    text-indent: 14vw;
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+
+.propertyInfoUnderline {
+    background-color: var(--secondaryColor);
+    width: 80vw;
+    margin: 10px 5vw 0 5vw;
+    height: 2px;
+    box-shadow: 1.5px 1px 2px #888888;
+}
+
+.inspectionDatesBox {
+    margin-top: 12px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    color: var(--primaryColor);
+}
+
+.inspectionDatesContainer {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inspectionDateBox {
+    display: flex;
+}
+
+#lastInspectionDateBox {
+    margin-bottom: 10px;
+}
+
+.inspectionDate {
+    text-indent: 5px;
+}
+
+.scheduleNewInspectionLink {
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+.propertiesImageBox {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.propertiesImageRotator {
+    width: 85vw;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* overflow-y: hidden; */
+
+}
+
+.propertyImageContainer {
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .propertiesTitleUnderline {
+        margin-bottom: 20px;
+    }
+
+    .propertyInfoContainer {
+        padding: 0 0 20px 0;
+    }
+
+    .propertyAddressBox {
+        justify-content: center;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    
+    .propertyAddress {
+        text-indent: 0;
+    }
+    
+    .propertyLocationBox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .locationInfo {
+        text-indent: 0;
+    }
+
+    .propertyGroupBox {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .propertyGroup {
+        text-indent: 0;
+    }
+
+    .propertyInfoUnderline {
+        margin: 10px 5vw 0 5vw;
+    }
+
+    .inspectionDatesBox {
+        justify-content: flex-start;
+        width: 90vw;
+    }
+
+    .inspectionDatesContainer {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90vw;
+    }
+
+    .inspectionDateType {
+        text-indent: 20px;
+    }
+
+    .scheduleNewInspectionLink {
+        text-indent: 20px;
+    }
+
+    .propertiesImageBox {
+        overflow-y: hidden;
+    }
+
+    .propertiesImageRotator {
+        width: 90vw;
+        flex-direction: column; 
+        justify-content: flex-start;   
+        overflow-y: hidden;
+
+    }
+
+    
+    .propertyImageContainer {
+        margin: 0 0 10px 0;
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .propertyImage:hover {
+        cursor: pointer;
+    }
+    
+
+    .showMoreBtnBox {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .showMoreBtn {
+        border: .5px solid var(--primaryColor);
+        color: var(--primaryColor);
+        background-color: white;
+        font-size: 18px;
+        width: 160px;
+    }
+
+    .showMoreBtn:hover {
+        border: .5px solid var(--secondaryColor);
+        color: var(--secondaryColor);
+        background-color: var(--primaryColor);
+    }
+
+    .propertyImageBlurredViewBox {
+        display: flex;
+        width: 90vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .propertyImageBlurredView {
+        width: 90vw;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.227);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: hidden;
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.632);
+        background-size: cover;
+    }
+
+    .propertyImageBlurredView:hover {
+        cursor: pointer;
+    }
+
+    .propertyImageBlurredViewShowMoreBtn {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .closeShowMoreBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .closeShowMoreBtn {
+        min-width: 100px;
+        width: 15vw;
+        height: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+        background-color: var(--primaryColor);
+        font-size: 13px;
+        border: none;
+        border-radius: 5px;
+    }
+    .closeShowMoreBtn:hover {
+        color: var(--secondaryColor);
+        border: solid .2px var(--secondaryColor);
+        cursor: pointer;
+    }
+}
+
+

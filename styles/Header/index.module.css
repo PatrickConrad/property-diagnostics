@@ -1,0 +1,22 @@
+.pageHeader {
+    background-color: white;
+    z-index: 5;
+}
+
+.topOfPageBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E8EAEA;
+    height: 40px;
+    width: 76vw;
+    color: rgb(97, 95, 95);
+    padding: 0 12vw;
+}
+
+@media screen and (max-width: 850px) {
+    .topOfPageBar{
+        justify-content: center;
+    }
+}
+

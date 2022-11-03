@@ -1,0 +1,38 @@
+.reserveStudiesLinkBox {
+    height: 173px;
+    width: 293px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reserveStudiesLinksHeading {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top:5px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.titleUnderline {
+    background-color: #F05B23;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 25px;
+}
+
+.reserveStudiesLinks {
+    height: 130px;
+    width: 100%;
+    display: block;
+}
+
+.reserveStudiesLinkListItem {
+    color: white;
+    padding: 2px 0;
+}
+.reserveStudiesLink {
+    text-decoration: none;
+    color: #2070B7;
+}

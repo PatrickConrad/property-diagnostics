@@ -1,0 +1,88 @@
+.searchBox {
+    width: 100vw;
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBarBox {
+    width: 70vw;
+    height: 60px;
+}
+
+.searchBar {
+    width: 70vw;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 10px #888888;
+    display: flex;
+}
+
+.searchBarIconBox {
+    width: 10vw;
+    border-right: .2px solid lightgray;
+    height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.searchBarIconBox:hover {
+    background-color: var(--primaryColor);
+    cursor: pointer;
+}
+
+.searchBarIcon {
+    width: 10vw;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    line-height: 40px;
+    font-size: 30px;
+    padding-top: 5px;
+    border-top: .1px solid lightgray;
+    border-left: .1px solid lightgray;
+    color: var(--primaryColor)
+}
+
+.searchBarIcon:hover {
+    color: var(--secondaryColor)
+}
+
+.searchBarTextBox {
+    width: 60vw;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.searchBarText {
+    font-size: 15px;
+    color: var(--primaryColor);
+    width: 60vw;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 40px;
+    border: none;
+    text-indent: 20px;
+    border-top: .1px solid lightgray;
+    border-right: .1px solid lightgray
+
+}
+
+.searchBarText:focus {
+    border: .2px solid var(--secondaryColor);
+    outline: none;
+    border-bottom: none;
+}
+
+.setFilterBox {
+    height: 15px;
+    width: 70vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+

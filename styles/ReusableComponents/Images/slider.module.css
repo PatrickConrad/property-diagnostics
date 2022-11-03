@@ -1,0 +1,71 @@
+.propertiesImageBox {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.sliderBarBox{
+    width: 100%;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sliderBarBox::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.propertiesImageSlider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.propertyImageContainer {
+    margin: 0 15px;
+}
+
+.propertyImageContainer:hover {
+    cursor: pointer;
+}
+.imgRotateBtnBox {
+    width: 2.5vw;
+    margin: 0 .5vw;
+    background-color: rgba(0, 0, 0, 0.31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+#imgRotateBtnLeft{
+    left: 0;
+}
+
+#imgRotateBtnRight{
+    right: 0;
+}
+
+.imgRotateBtnBox:hover {
+    cursor: pointer;
+}
+
+.imageInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    border: .1px solid lightgray;
+    border-top: none;
+    padding: 0 0 2px 0;
+}

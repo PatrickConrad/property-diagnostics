@@ -1,0 +1,30 @@
+.fullScreenImageBox {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: flex;
+}
+
+.fullScreenSliderImage{
+}
+
+.fullScreenImageSliderBtnBox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5vw;
+    background-color: rgba(0, 0, 0, 0.407);
+    z-index: 70000000;
+}
+
+.fullScreenImageSliderBtnBox:hover {
+    background-color: rgba(0, 0, 0, 0.605);
+}
+
+#fullScreenImageSliderBtnBoxLeft {
+    left: 0
+}
+
+#fullScreenImageSliderBtnBoxRight {
+    right: 0
+}

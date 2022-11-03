@@ -1,0 +1,145 @@
+.navBar {
+    background-color: #0F263A; 
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    position: relative;
+    z-index: 2;
+}
+
+.navBarBox {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.navLinkBox {
+    display: flex; 
+    align-items: center; 
+    max-width: 190px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.navLink{
+    padding-top: 5px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    height: 25px;
+}
+
+.navLink:hover {
+    color: #F05B23;
+    cursor:pointer
+}
+
+.navDropdown {
+    position: absolute;
+    background-color: white;
+    width: 300px;
+}
+
+.dropdownBufferBox {
+    height: 20px;
+    background-color: #0F263A;
+    
+}
+
+.navDropdownLinks {
+    height: 40px;
+    color: #0F263A;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    text-decoration: none;
+    border-left: .2px solid lightgray;
+    border-right: .2px solid lightgray;
+    border-bottom: .2px solid lightgray;
+}
+
+.navDropdownLinks:hover {
+    background-color: #0F263A;
+    color: #F05B23;
+    border-top: .2px solid lightgray;
+}
+
+.navDropdownLink {
+    text-decoration: none;
+}
+
+
+.navSeporatorBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 25px
+}
+
+.navSeporator {
+    height: 2px;
+    width: 1px; 
+    background-color: #3F5262
+}
+
+
+
+@media screen and (max-width: 700px){
+    .navBarBox {
+        width: 100vw;
+        justify-content: space-between;
+    }
+    .requestReserveBtnBox {
+        width: 30vw;
+        margin-left: 10vw;
+    }
+    
+    .mobileMenuNavBarBox {
+        width: 50vw;
+        margin-right: 10vw;
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .navBar {
+        height: 100px;
+    }
+
+    .mobileLogo {
+        width: 260px;
+        height: 75.9px;
+        padding-top: 10px;
+    }
+
+    .mobileMenuNavBarBox {
+        display: flex;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .mobileLogo {
+        width: 200px;
+        height: 64.23px;
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .mobileLogo {
+        width: 150px;
+        height: 48.17px;
+        padding-top: 10px;
+    }
+
+}

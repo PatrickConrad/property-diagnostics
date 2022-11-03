@@ -1,0 +1,44 @@
+.regularHeaderBox {
+    display: flex;
+    margin-left: 30px;
+    width: calc(82vw - 360px);
+    justify-content: space-between;
+    align-items: center;
+    height: 100%
+}
+
+.addressBox {
+    display: flex;
+    align-items: center;
+}
+
+.contactPOHeaderBox {
+    margin-left:10px;
+}
+
+.phoneInfoBox {
+    display: flex;
+    align-items: center;
+}
+
+.headerContactIcon {
+    font-size: 25px;
+    color: #0F263A
+}
+
+.contactInfoHeaderBox {
+    margin-left:10px;
+}
+
+.headerLocation {
+    color: #9692A0
+}
+.headerEmail {
+    color: #9692A0
+}
+
+@media all and (max-width: 1230px) {
+    .regularHeaderBox {
+        justify-content: flex-end;
+    }
+}

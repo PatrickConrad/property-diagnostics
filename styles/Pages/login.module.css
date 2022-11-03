@@ -1,0 +1,153 @@
+.loginComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.authFormBox{
+    width: 50vw;
+    min-width: 280px;
+    box-shadow: -2px 5px #888888;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #0f263aec;
+}
+
+.authFormTitle {
+    color: white;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.authFormTitleUnderline {
+    width: 15%;
+    height: 2px;
+    background-color: var(--secondaryColor);
+    margin-bottom: 25px;
+}
+
+.authFormGroup {
+    margin: 10px 0 25px 0;
+}
+
+.authFormLabelBox {
+    height: 30px;
+}
+
+.authFormLabel {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+
+.authFormInput {
+    height: 30px;
+    width: 240px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.errorSpan {
+    color: red;
+    font-size: 15px;
+}
+
+.authFormBtn {
+    height: 40px;
+    width: 150px;
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+    border: .5px solid white;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.authFormBtn:hover {
+    cursor: pointer;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor)
+}
+
+.registerInfoBox {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerInfo {
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+}
+
+.registerInfo:hover {
+    cursor: pointer;
+}
+
+.registrationInfo {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    width: 90%;
+    margin-left: 30px;
+}
+
+
+@media screen and (min-width: 550px) {
+    .authFormBox{
+        width:30vw;
+    }
+    .authFormTitle {
+        color: white;
+        margin-bottom: 5px;
+        letter-spacing: 2px;
+    }
+    
+    .authFormTitleUnderline {
+        width: 15%;
+        height: 1px;
+        background-color: var(--secondaryColor);
+    }
+    
+    .authFormGroup {
+        margin: 8px 0 15px 0;
+    }
+    
+    .authFormLabelBox {
+        height: 18px;
+    }
+    
+    .authFormLabel {
+        font-size: 14px;
+    }
+    
+    .authFormInput {
+        height: 20px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    
+    .errorSpan {
+        color: red;
+        font-size: 15px;
+    }
+    
+    .authFormBtn {
+        height: 30px;
+        width: 150px;
+        margin-top: 6px;
+    }
+
+}

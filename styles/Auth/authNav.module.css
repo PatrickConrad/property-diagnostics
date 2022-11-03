@@ -1,0 +1,22 @@
+
+.authDisplayNameBox {
+    display: flex;
+    align-items: center;
+}
+.authDisplayName {
+    display: block;
+    position: relative;
+    color: #0F263A;
+    font-size: 20px;
+    padding-right: 7px;
+}
+
+.menuIcon {
+    display: flex;
+    justify-content: flex-end;
+    color:#0F263A;
+}
+
+.menuIcon:hover {
+    color:#F05B23;
+}

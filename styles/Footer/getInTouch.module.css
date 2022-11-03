@@ -1,0 +1,65 @@
+.getInTouchBox {
+    height: 100%
+}
+
+.getInTouchTitle {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top:5px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.titleUnderline {
+    background-color: #F05B23;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 25px;
+}
+
+.contactInfo{
+    width: 225px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    height:100%
+}
+.footerContactBox {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.footerContactIcon {
+    font-size: 25px;
+}
+
+.addressHeaderDiv {
+    display:flex;
+    flex-direction: column;
+    padding-left: 13px;
+    font-size: 16px;
+}
+
+
+/* .footerPOBoxZip {
+
+} */
+
+.footerPhoneNumber {
+    padding-left: 10px;
+    color: #627279;
+    font-size: 16px;
+}
+
+.footerEmail {
+    padding-left:10px;
+    color: #627279;
+    font-size: 16px;
+}
+.businessHours {
+    padding-left:10px;
+    font-size: 16px;
+}

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica;
+  }
+
+/* 229.09 height of header */
+
+:root {
+  --primaryColor: #224563;
+  --secondaryColor: #F05B23;
+}
+
+body {
+  overflow-x: hidden;
+  min-width: 330px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  body::-webkit-scrollbar { 
+      display: none;  /* Safari and Chrome */
+  }
+}

@@ -1,0 +1,30 @@
+.infoFooterBox {
+    min-height: 408px;
+    width: calc(100vw - 120px);
+    background-color: #141E28;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 60px 0 60px;
+}
+
+@media screen and (max-width: 1230px) {
+   .infoFooterBox {
+        height: 670px;
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 1fr 1fr;
+        padding: 60px 60px 0 60px
+
+   } 
+}
+
+@media screen and (max-width: 750px) {
+    .infoFooterBox {
+         height:1300px;
+         display: grid;
+         gap: 1.5rem;
+         grid-template-columns: 1fr;
+         padding: 60px 60px 0 60px;
+         justify-items: center;
+    } 
+ }

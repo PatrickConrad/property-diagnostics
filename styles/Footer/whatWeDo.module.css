@@ -1,0 +1,19 @@
+.whatWeDoSection {
+    height: 309px;
+    width: 275px;
+}
+
+.footerLogo {
+    height: 80.28px;
+    width: 275px;
+}
+
+.businessInfo {
+    padding: 14px 0;
+    font-size: 18px;
+    color: white
+}
+
+.readMoreBusinessInfo {
+    text-decoration: none;
+}

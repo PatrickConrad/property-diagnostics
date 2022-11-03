@@ -1,0 +1,107 @@
+.pageBody {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    flex-direction: column;
+    position: relative;
+}
+
+.editBtn {
+    position: absolute;
+    top: 20px;
+}
+
+.editIcon {
+    font-size: 25px;
+    color: var(--primaryColor);
+}
+
+.editIcon:hover {
+    cursor: pointer;
+    color: var(--secondaryColor);
+}
+
+.inspectionDatesBox {
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+
+.inspectionDateBox {
+    display: flex;
+}
+
+
+.inspectionDate {
+    text-indent: 10px;
+}
+
+.mainImageContainer {
+    padding: 10px 0 20px 0;
+}
+
+/* .mainImage {
+    
+} */
+
+.mobileImageBox {
+    position: relative;
+    display: flex;
+}
+
+.mobileImageBoxOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5vw;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.512);
+}
+
+.mobileImageBoxOverlay:hover {
+    cursor: pointer;
+}
+
+#mobileImageBoxOverlayLeft {
+    left: 0;
+}
+
+#mobileImageBoxOverlayRight {
+    right: 0;
+}
+
+.mobileImageDirectionIcon {
+    color: white;
+    font-size: 25px;
+}
+
+.messageAndGroupBox {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+}
+
+@media screen and (min-width: 1000px) {
+    .messageAndGroupBox {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .inspectionDatesBox {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .messageAndGroupBox {
+        flex-direction: column;
+        width: 90vw;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

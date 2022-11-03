@@ -1,0 +1,30 @@
+.userMenu {
+    position: absolute;
+    background-color: #224563;
+    border: 1px solid lightgray;
+    width: 200px;
+    z-index: 5;
+}
+
+.userMenuSelectionBox {
+    height: 70px;
+    border-bottom: 1px solid lightgray;
+}
+
+.userMenuSelectionBox:hover {
+    border-bottom: 1px solid #F05B23;
+}
+
+.userMenuSelection {
+    line-height: 70px;
+    color: white;
+    padding-left: 15px;
+    text-decoration: none;
+    width: 185px;
+    height: 70px;
+}
+
+.userMenuSelection:hover {
+    color: #F05B23;
+    cursor: pointer;
+}
